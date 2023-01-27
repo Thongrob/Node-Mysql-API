@@ -14,8 +14,8 @@ var usersRouter = require('./routes/users');
 // let connection = mysql.createConnection({
 //   host: 'localhost',
 //   user: 'root',
-//   password: '123456',
-//   database: 'dotnetinvdb'
+//   password: '',
+//   database: 'your_db_name'
 // });
 
 // connection.connect(function(err) {
@@ -33,8 +33,8 @@ var usersRouter = require('./routes/users');
 // const pool = createPool({
 //     host: 'localhost',
 //     user: 'root',
-//     password: '123456',
-//     database: 'dotnetinvdb',
+//     password: '',
+//     database: 'your_db_name',
 //     connectionLimit: 10
 // })
 // let sql = 'SELECT * FROM products';
